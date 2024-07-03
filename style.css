@@ -1,0 +1,115 @@
+@font-face {
+    font-family:Inter ;
+    src: url(font/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.header{
+    font-size: 30px;
+    margin: 2rem;
+    color: rgb(80, 2, 2);
+}
+#Box{
+    width: 550px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 3, 3);
+    position: absolute;
+    left: 23rem;
+    top: 12rem;
+    border: 1px solid rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+}
+.content1{
+    display: block;
+    line-height: 3rem;
+}
+
+.content1 h1{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    font-weight: 400;
+    right: 6.2rem;
+    top: 3rem;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+}
+.content1 input {
+    align-items: center;
+    margin-left: 9rem;
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top: 6rem;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+input::placeholder {
+    position: relative;
+    left: 1rem;
+    
+}
+.content2{
+    display: block;
+}
+
+.content2 input{
+    align-items: center;
+    margin-left: 9rem;
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top: 10rem;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+button{
+    position: relative;
+    top: 10rem;
+    left: 9rem;
+    width: 250px;
+    height: 35px;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+.imageContainer {
+    display: flex;
+    margin-top: 25rem;
+    padding: 20px;
+   justify-content: center;
+}
+.image_item{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 10px;
+    background-color:transparent;
+}
+.image_item .a{
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.image_item p{
+    color: white ;
+    text-align: center;
+}
