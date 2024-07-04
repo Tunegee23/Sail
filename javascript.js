@@ -3,7 +3,7 @@ const button = document.getElementById("btn").addEventListener("click",submitMov
 function submitMovive(){
     const title = document.getElementById("Movietitle").value
     const url = document.getElementById("Movieurl").value
-    if ( title === '' || url === '') {
+    if ( title === ''|| url === '') {
         alert('Please fill in both fields.');
         return;
     }
@@ -11,17 +11,18 @@ function submitMovive(){
     const paragraph = document.createElement("p")
     paragraph.textContent = title;
 
-    const link = document.createElement("a")
-    link.href = url;
+    const image = document.createElement("img")
+    image.className = "image"
+    image.src = url;
 
-    
 
-    const container = document.getElementById("image_container")
+    const container = document.getElementById("image_container");
     const imageItem = document.createElement('div');
     imageItem.className = "image_item";
 
-    imageItem.appendChild(link);
+
     imageItem.appendChild(paragraph)
+    imageItem.appendChild(image);
     container.appendChild(imageItem)
    
 }
